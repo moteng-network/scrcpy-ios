@@ -226,6 +226,9 @@ h1 em {
   color: #f0c780;
   white-space: nowrap;
 }
+.store-status.available {
+  color: var(--mint);
+}
 .download-detail {
   display: block;
   color: var(--muted);
@@ -236,6 +239,9 @@ h1 em {
   width: 100%;
   padding: 9px 10px;
   font-size: 12px;
+}
+.download-card .button + .button {
+  margin-top: 8px;
 }
 .app-store-download {
   display: flex;
