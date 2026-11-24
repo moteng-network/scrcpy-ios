@@ -220,34 +220,19 @@ h1 em {
 .store-row strong {
   white-space: nowrap;
 }
-.store-status {
-  margin-left: auto;
-  font-size: 11px;
-  color: #f0c780;
-  white-space: nowrap;
-}
-.store-status.available {
-  color: var(--mint);
-}
 .download-detail {
   display: block;
   color: var(--muted);
   font-size: 12px;
   margin: 12px 0;
 }
-.download-card .button {
-  width: 100%;
-  padding: 9px 10px;
-  font-size: 12px;
-}
-.download-card .button + .button {
-  margin-top: 8px;
-}
+.android-download,
 .app-store-download {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.android-download:hover,
 .app-store-download:hover {
   border-color: var(--mint);
 }
